@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staic Interactive Resume Builder</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="resume">
+        <header>
+            <h1 class="name">Muhammad Hammad Khan</h1>
+            <p class="contact-info">hammmad03444@gmail.com | 0312-0279285</p>
+        </header>
+        <main>
+            <h2 class="objective-heading">Objective</h2>
+            <p class="objective">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto doloremque illum
+                labore hic incidunt nobis alias ipsa nulla consequatur eaque ducimus fuga earum sequi dolor, delectus
+                perspiciatis necessitatibus! Rerum eligendi officiis aliquid iusto, facilis consequatur mollitia illo
+                suscipit ipsam! Quis a necessitatibus laudantium nisi minus.</p>
+            <h2 class="education-heading">Education</h2>
+            <p class="education">Bechelor's Degree in CS software engineering from NUST (2020-2024)</p>
+            <h2 class="workexperience-heading">Work Experience</h2>
+            <p class="workexperience">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste non dolorum
+                rerum.(from-to)</p>
+            <skills class="skill-heading">Skills</skills>
+            <ul class="skillslist">
+                <li>HTML-5</li>
+                <li>CSS-3</li>
+                <li>Typecsript</li>
+            </ul>
+        </main>
+        <footer>
+            <div class="buttons">
+            <!-- toggle buttons -->
+            <button id="forobjective" class="toggle-button">Toggle Objective</button>
+            <button id="foreducation" class="toggle-button">Toggle Education</button>
+            <button id="forworkexp" class="toggle-button">Toggle Work Experience</button>
+            <button id="forskills" class="toggle-button">Toggle Skills</button>
+        </div>
+            <!-- print button -->
+            <div class="print">
+                <button class="printbutton">Print Resume</button>
+            </div>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
